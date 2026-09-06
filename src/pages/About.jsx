@@ -1,8 +1,12 @@
 import React from 'react'
+// import About from '../components/about/About'
 
 const About = () => {
   return (
-    <div>About</div>
+    <div>
+<About/>
+
+    </div>
   )
 }
 

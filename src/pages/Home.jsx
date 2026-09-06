@@ -1,15 +1,12 @@
-import React from "react";
+import React from 'react'
+import Home from '../components/home/Home'
 
-const Home = () => {
+const App = () => {
   return (
-    <div className="min-h-[70vh] flex items-center justify-center">
-
-      <h1 className="text-4xl font-bold">
-        Welcome to E-Store 🛍️
-      </h1>
-
+    <div>
+      <Home />
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default App
